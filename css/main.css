@@ -1,3 +1,4 @@
+/* Utils */
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #ffffff;
@@ -14,6 +15,7 @@
   --icon-color: #afb1b8;
 }
 
+/* Base */
 html {
   box-sizing: border-box;
 }
@@ -62,6 +64,7 @@ img {
   min-height: auto;
 }
 
+/* Layout */
 header {
   border-bottom: 1px solid var(--line-color);
 }
@@ -446,19 +449,19 @@ header {
 }
 
 .icon-antenna::before {
-  background-image: url(../image/icon/antenna/1.png);
+  background-image: url(../image/icon/antenna-1.png);
 }
 
 .icon-clock::before {
-  background-image: url(../image/icon/clock/1.png);
+  background-image: url(../image/icon/clock-1.png);
 }
 
 .icon-diagram::before {
-  background-image: url(../image/icon/diagram/1.png);
+  background-image: url(../image/icon/diagram-1.png);
 }
 
 .icon-astronaut::before {
-  background-image: url(../image/icon/astronaut/1.png);
+  background-image: url(../image/icon/astronaut-1.png);
 }
 
 .features-text {
@@ -708,6 +711,7 @@ header {
   border: 1px solid var(--acent-color);
 }
 
+/* Potfolio */
 .portfolio-filters {
   display: flex;
   justify-content: center;
@@ -834,6 +838,7 @@ header {
   line-height: 1.56;
 }
 
+/* Footer */
 .footer-background {
   background-color: var(--main-text-color);
 }

@@ -1,11 +1,11 @@
-//  Utils
+/* Utils */
 @import "./utils/variables";
 
-//  Base
+/* Base */
 @import "./base/base";
 @import "./base/container";
 
-//  Layout
+/* Layout */
 @import "./layout/header";
 @import "./layout/site-nav";
 @import "./layout/tel-mail";
@@ -16,9 +16,9 @@
 @import "./layout/team";
 @import "./layout/clients";
 
-//  Potfolio
+/* Potfolio */
 @import "./layout/portfolio-filters";
 @import "./layout/portfolio-galery";
 
-// Footer
+/* Footer */
 @import "./layout/footer";
