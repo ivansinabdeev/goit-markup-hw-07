@@ -4,9 +4,10 @@
 }
 .work-list {
   display: flex;
-}
-.work-list .work-img {
-  margin-right: 30px;
+
+  & .work-img {
+    margin-right: 30px;
+  }
 }
 
 .section-title-work {

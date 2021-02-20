@@ -20,6 +20,10 @@
   width: 170px;
   height: 90px;
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .client-link {
@@ -36,10 +40,14 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--acent-color);
+    border: 1px solid var(--acent-color);
+  }
 }
-.client-item:last-child {
-  margin-right: 0px;
-}
+
 .client-icon {
   display: flex;
   justify-content: center;
@@ -67,9 +75,4 @@
 .logo-6 {
   width: 88.48px;
   height: 45.44px;
-}
-.client-link:hover,
-.client-link:focus {
-  fill: var(--acent-color);
-  border: 1px solid var(--acent-color);
 }
